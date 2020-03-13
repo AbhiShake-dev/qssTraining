@@ -1,0 +1,34 @@
+.body2{
+    background-image: url("back2.jpg");
+    background-size: cover;
+}
+.body1{
+    background-image: url("back1.jpg");
+    background-size: cover;
+}
+.container1{
+    color: aliceblue;
+    margin: 100px;
+    opacity: 0.6;
+    transition: 0.3s;
+}
+.container1:hover{
+    opacity: 1;  
+}
+.container2{
+    color: aliceblue;
+    margin: 100px;
+    opacity: 0.6;
+    transition: 0.3s;
+}
+.container2:hover{
+    opacity: 1;
+}
+.custom-navbar{
+    float: right;
+    padding-left: 700px; 
+    position: static;
+}
+.search_button{
+    position: left; 
+}
