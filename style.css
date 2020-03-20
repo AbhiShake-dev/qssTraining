@@ -33,3 +33,16 @@
   height: auto;
 }
 
+.row img{
+  width: 100px;
+  height: 100px;
+}
+
+.mob ul li {
+  float: centre;
+  }
+
+  .mob  li {
+    width: 100px;
+    height: 100px;
+    }
