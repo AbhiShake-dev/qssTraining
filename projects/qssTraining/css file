@@ -1,0 +1,132 @@
+dotted - Defines a dotted border
+dashed - Defines a dashed border
+solid  - Defines a solid border
+double - Defines a double border
+groove - Defines a 3D grooved border. The effect depends on the border-color value
+ridge  - Defines a 3D ridged border. The effect depends on the border-color value
+inset  - Defines a 3D inset border. The effect depends on the border-color value
+outset - Defines a 3D outset border. The effect depends on the border-color value
+none   - Defines no border
+hidden - Defines a hidden border
+
+
+
+POSITION
+
+bottom      Sets the bottom margin edge for a positioned box
+clip 	    Clips an absolutely positioned element
+left 	    Sets the left margin edge for a positioned box
+position 	Specifies the type of positioning for an element
+right 	    Sets the right margin edge for a positioned box
+top 	    Sets the top margin edge for a positioned box
+z-index 	Sets the stack order of an element
+
+
+
+
+    counter-reset   - Creates or resets a counter
+    counter         - increment - Increments a counter value
+    content         - Inserts generated content
+    counter() or counters() function - Adds the value of a counter to an element
+
+
+    Unit 	        Description 	
+    em 	        Relative to the font-size of the element (2em means 2 times the size of the current font) 	
+    ex 	        Relative to the x-height of the current font (rarely used) 	
+    ch 	        Relative to width of the "0" (zero) 	
+    rem 	    Relative to font-size of the root element 	
+    vw 	        Relative to 1% of the width of the viewport* 	
+    vh 	        Relative to 1% of the height of the viewport* 	
+    vmin 	    Relative to 1% of viewport's* smaller dimension 	
+    vmax 	    Relative to 1% of viewport's* larger dimension 	
+    % 	        Relative to the parent element
+
+
+
+
+    CSS Border image property
+
+    Property 	            Description
+border-image 	        A shorthand property for setting all the border-image-* properties
+border-image-source 	Specifies the path to the image to be used as a border
+border-image-slice 	    Specifies how to slice the border image
+border-image-width 	    Specifies the widths of the border image
+border-image-outset 	Specifies the amount by which the border image area extends beyond the border box
+border-image-repeat 	Specifies whether the border image should be repeated, rounded or stretched
+
+CSS Shadow Property
+Property 	            Description
+box-shadow 	        Adds one or more shadows to an element
+text-shadow 	    Adds one or more shadows to a text 
+
+
+
+CSS Witting Mode
+
+writing-mode: horizontal-tb; (horizontal writting, top to bottom)
+writing-mode: vertical-rl; (vertical writing, right to left)
+ writing-mode: vertical-lr;(vertical writing,left to write)
+
+
+
+
+
+
+
+Different Font Formats
+
+TrueType Fonts (TTF)-
+TrueType is a font standard developed in the late 1980s, by Apple and Microsoft. TrueType is the most common font format for both the Mac OS and Microsoft Windows operating systems.
+
+OpenType Fonts (OTF)-
+OpenType is a format for scalable computer fonts. It was built on TrueType, and is a registered trademark of Microsoft. OpenType fonts are used commonly today on the major computer platforms.
+
+The Web Open Font Format (WOFF)-
+WOFF is a font format for use in web pages. It was developed in 2009, and is now a W3C Recommendation. WOFF is essentially OpenType or TrueType with compression and additional metadata. The goal is to support font distribution from a server to a client over a network with bandwidth constraints.
+
+The Web Open Font Format (WOFF 2.0)-
+TrueType/OpenType font that provides better compression than WOFF 1.0.
+
+SVG Fonts/Shapes-
+SVG fonts allow SVG to be used as glyphs when displaying text. The SVG 1.1 specification define a font module that allows the creation of fonts within an SVG document. You can also apply CSS to SVG documents, and the @font-face rule can be applied to text in SVG documents.
+
+Embedded OpenType Fonts (EOT)-
+EOT fonts are a compact form of OpenType fonts designed by Microsoft for use as embedded fonts on web pages.
+
+
+
+
+
+
+
+
+
+CSS 2D Transforms Methods
+With the CSS transform property you can use the following 2D transformation methods:
+
+    translate()
+    rotate()
+    scaleX()
+    scaleY()
+    scale()
+    skewX()
+    skewY()
+    skew()
+    matrix()
+
+
+
+
+
+
+
+    CSS Transform Properties
+The following table lists all the 3D transform properties:
+
+Property 	                    Description
+transform 	                Applies a 2D or 3D transformation to an element
+transform-origin 	        Allows you to change the position on transformed elements
+transform-style 	        Specifies how nested elements are rendered in 3D space
+perspective 	            Specifies the perspective on how 3D elements are viewed
+perspective-origin          Specifies the bottom position of 3D elements
+backface-visibility 	    Defines whether or not an element should be visible when not facing the screen

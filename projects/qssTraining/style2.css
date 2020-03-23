@@ -1,0 +1,100 @@
+body{
+    
+    background-image: url(aerial.jpg);
+    background-size: 100%;
+}
+h1{
+    color: rgb(243, 12, 12);
+    margin-left: 32px;
+    text-shadow: 2px 2px yellow;
+   /* text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;*/
+}
+header{  
+}
+.navigation{
+    height: 64px;
+    width: 100%;
+    border: solid 3px black;
+    border-radius: 25px;
+}
+.nav {
+    background-color: rgba(193, 250, 4, 0.658); 
+    list-style-type: none;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    border-radius: 25px;
+    
+  }
+  .nav li {
+    display: inline-block;
+    font-size: 20px;
+    padding: 20px;
+    margin-left: 64px;
+  }
+  .logo{
+      width: 0;
+      height: 0;   
+  }
+
+  
+  /*
+  code for set image as a border
+  #borderimg { 
+    border: 20px solid transparent;
+    padding: 15px;
+    border-image: url(border1.jpeg) 30 round;
+  }
+  */
+
+  div#myDiv {
+
+    width: 375px;
+    height: 100px;
+    background-color: yellow;
+    border: 1px solid black;
+    margin-top: 60px;
+    font-size: 16px;
+    /* margin-left: 150px; */
+
+
+    /* This is the code for rotation*/ 
+    -ms-transform: rotate(-20deg); /* IE 9 */
+    transform: rotate(-20deg); /* Standard syntax */
+  }
+  /* div {
+    width: 300px;
+    height: 100px;
+    background-color: yellow;
+    border: 1px solid black;
+  } */
+
+
+  .divtrans {
+    width: 100px;
+    height: 100px;
+    margin-top: 70px;
+    margin-left: 220px;
+    /* background: rgb(0, 217, 255); */
+    transition: width 2s;
+  }
+  
+  #div1 {
+    transition-timing-function: linear;
+  background-color: rgb(14, 18, 243);}
+  #div2 {
+    transition-timing-function: ease;
+  background-color: rgb(255, 0, 0);}
+  #div3 {
+    transition-timing-function: ease-in;
+  background-color: violet;}
+  #div4 {
+    transition-timing-function: ease-out;
+  background-color: turquoise;}
+  #div5 {
+    transition-timing-function: ease-in-out;
+  background-color: salmon;}
+  
+  .divtrans:hover {
+    width: 300px;
+  }
