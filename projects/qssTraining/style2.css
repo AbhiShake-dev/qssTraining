@@ -2,6 +2,8 @@ body{
     
     background-image: url(aerial.jpg);
     background-size: 100%;
+    background-repeat: no-repeat;
+    background-color: lightblue;
 }
 h1{
     color: rgb(243, 12, 12);
@@ -73,7 +75,7 @@ header{
   .divtrans {
     width: 100px;
     height: 100px;
-    margin-top: 70px;
+    margin-top: 170px;
     margin-left: 220px;
     /* background: rgb(0, 217, 255); */
     transition: width 2s;
@@ -97,4 +99,81 @@ header{
   
   .divtrans:hover {
     width: 300px;
+  }
+
+
+  .animation {
+    margin-left: 400px;
+    width: 200px;
+    height: 180px;
+    position: relative;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-delay:5s;
+    animation-direction: alternate;
+  }
+
+  img {
+    border-radius: 50%;
+  }
+  
+  @keyframes example {
+    0%   { left:0px; top:0px;}
+    25%  { left:400px; top:0px;}
+    50%  {left:400px; top:400px;}
+    75%  {left:0px; top:400px;}
+    100% { left:0px; top:0px;}
+  }
+
+
+
+  .tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+  }
+  
+  .tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+  
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+ 
+  }
+  
+  .tooltip:hover .tooltiptext {
+    visibility: visible;
+  }
+
+
+
+  .newspaper {
+    column-count: 4;
+    column-gap: 40px;
+    column-rule-style: solid;
+    column-rule-width: 2px;
+    column-rule-color:blue;
+    /* column-rule: 1px solid lightblue;  we can write in this way also*/
+    margin-top: 10px;
+  }
+
+
+  .resize {
+    border: 2px solid;
+    padding: 20px; 
+    width: 300px;
+    resize: both;
+    overflow: auto;
+    margin-top: 20px;
+
+    outline: 4px solid red;
+  outline-offset: 15px;
   }
