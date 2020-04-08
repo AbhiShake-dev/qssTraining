@@ -1,0 +1,22 @@
+body {
+    margin: 0;
+    padding: 2rem;
+    font-family: sans-serif;
+    }
+    .active{
+       color:red;
+    }
+
+ul li{
+   list-style-type: none;
+   display: inline;
+}
+
+table{
+   width: 100%;
+}
+table, th, td {
+   border: 1px solid black;
+   border-collapse: collapse;
+   height:30px;
+ }
